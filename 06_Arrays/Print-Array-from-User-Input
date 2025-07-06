@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Arrayyy {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+         System.out.println("Enter size of the array "); // enter size 
+        int size = sc.nextInt();
+
+        //declare array
+        int numbers[] = new int [size];
+
+        //enter elements
+        System.out.println("enter "+size+" elements");
+        for (int i =0;i<size;i++){
+             numbers[i]=sc.nextInt();
+        }
+
+        //print the array
+        System.out.println("The array elemnts are :");
+        for(int i=0;i<size;i++){
+            System.out.print(numbers[i]);
+        }
+
+
+    }
+    
+}
