@@ -1,0 +1,17 @@
+//CLASS DECLARATION 
+ class  classname {
+      datatype variableNames ;  // properties
+ className () {  // constructorr
+     // initialization 
+}
+returnType methodName (parameters){ //methods 
+   // code 
+}
+}
+
+  // CREATING OBJECTS 
+
+  className ObjectName = new ClassName (arguments);
+  object.method ();
+ 
+ 
